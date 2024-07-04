@@ -1,0 +1,86 @@
+.logo img{
+    width: 5rem;
+    height: 5rem;
+}
+.lists{
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    padding: 0;
+}
+.listitems a{
+text-decoration: none;
+padding: 0.8rem 2.2rem;
+color: black;
+ /* border: 2px solid green; */
+border-radius: 3rem; 
+}
+.listitems a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.cart button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+}
+
+.cart button img{
+    width: 3rem;
+}
+
+
+.catname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contai{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.itemarea{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    width: 90%;
+}
+.itemimg img{
+    width: 100px;
+  
+}
+.itemimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttonsss{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.buttonsss button{
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 0.1rem 0.8rem;
+}
+.buttonsss button:hover{
+    cursor: pointer;
+    background-color: rgb(225, 146, 0);
+}
+.buttonsss button:active{
+    padding: 0.2rem 0.9rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,107 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+  }
+  .Navbars{
+    /* border-bottom: 2px solid red; */
+    padding-bottom: 3rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    /* background-color:  rgba(178, 69, 69, 0.793); */
+    background-color: lavender;
+    z-index: -100;
+    box-shadow: 15px 15px 50px 10px green;
+  }
+  .navbarr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(178, 69, 69, 0.793);
+    box-shadow: 15px 15px 50px 10px purple;
+    
+  }
+  
+  .logo img{
+    width: 5rem;
+    height: 5rem;
+  }
+  .lists{
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    padding: 0;
+  }
+  .listitems a{
+  text-decoration: none;
+  padding: 0.8rem 2.2rem;
+  color: black;
+  /* border: 2px solid green; */
+  border-radius: 3rem; 
+  }
+  .listitems a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+  .cart button{
+    /* font-size: 1rem; */
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+  }
+  .cart button img{
+    width: 3rem;
+  }
+  
+  
+.container{
+  /* border: 2px solid red; */
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box{
+  border: 2px solid lavender;
+  background-color: lavender;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 15px 15px 50px 10px black;
+  margin: 3% 2%;
+}
+.context{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.itemname span{
+  font-size: 2.5rem;
+ 
+} 
+.image img{
+  width: 20rem;
+  border-radius: 2rem;
+}
+.itemdescription span{
+  font-size: 1.5rem;
+}
+.checkout button{
+color: white;
+background-color: black;
+cursor: pointer;
+font-size: 1.5rem;
+margin-top: 20px;
+border-radius: 5rem;
+padding:0.5rem 1rem;
+}
+.checkout button:hover{
+  color: black;
+background-color: white;
+}

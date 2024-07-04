@@ -1,0 +1,19 @@
+body{
+    /* background-color: yellow; */
+}
+.lists li a{
+    padding: 0.2rem 0.6rem;
+}
+.listitems{
+    font-size: 1.2rem;
+    padding: 0rem 0.2rem;
+}
+.Navbars{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-bottom: 2rem;
+}
+.image img{
+    width: 17rem;
+    border-radius: 2rem;
+  }
